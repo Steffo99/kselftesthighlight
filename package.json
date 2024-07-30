@@ -1,0 +1,24 @@
+{
+  "name": "kselftest",
+  "displayName": "kselftest",
+  "description": "Syntax highlighting for kselftest output",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "kselftest",
+      "extensions": [""],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "kselftest",
+      "scopeName": "source.kselftest",
+      "path": "./syntaxes/kselftest.tmLanguage.json"
+    }]
+  }
+}
