@@ -12,7 +12,7 @@
   "contributes": {
     "languages": [{
       "id": "kselftest",
-      "extensions": [""],
+      "extensions": ["kselftest"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
