@@ -1,24 +1,35 @@
 {
-  "name": "kselftest",
-  "displayName": "kselftest",
-  "description": "Syntax highlighting for kselftest output",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.91.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "kselftest",
-      "extensions": ["kselftest"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "kselftest",
-      "scopeName": "source.kselftest",
-      "path": "./syntaxes/kselftest.tmLanguage.json"
-    }]
-  }
+	"name": "kselftest",
+	"publisher": "steffo",
+	"icon": "icon.png",
+	"displayName": "kselftesthighlight",
+	"description": "Syntax highlighting for kselftest output",
+	"license": "EUPL-1.2",
+	"bugs": {
+		"url": "https://github.com/Steffo99/kselftesthighlight/issues",
+		"email": "me@steffo.eu"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Steffo99/steffula-code"
+	},
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.91.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "kselftest",
+			"extensions": ["kselftest"],
+			"configuration": "./language-configuration.json"
+		}],
+		"grammars": [{
+			"language": "kselftest",
+			"scopeName": "source.kselftest",
+			"path": "./syntaxes/kselftest.tmLanguage.json"
+		}]
+	}
 }
